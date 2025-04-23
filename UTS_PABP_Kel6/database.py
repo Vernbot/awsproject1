@@ -7,9 +7,9 @@ class SQL:
     def create_connection(self):
         try:
             self.connection = mysql.connector.connect(
-                host="localhost",
-                user="root",
-                password="DevSQL265Man**",
+                host="proyek1database.chwq0aa6y2ak.us-east-1.rds.amazonaws.com",
+                user="admin",
+                password="alvern123",
                 database="car_rental"
             )
             print("Connection to database is successful")
